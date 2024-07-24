@@ -10,5 +10,10 @@
     <toc-element topic="Week2update.md"/>
     <toc-element topic="Week3update.md"/>
     <toc-element topic="GPT-Communication-plan.md"/>
-    <toc-element topic="Marathon-Master-Plan.md"/>
+    <toc-element topic="Marathon-Master-Plan.md">
+        <toc-element topic="Week-1.md"/>
+        <toc-element topic="Week-2.md"/>
+        <toc-element topic="Week-3.md"/>
+        <toc-element topic="Week-4.md"/>
+    </toc-element>
 </instance-profile>
