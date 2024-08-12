@@ -1,37 +1,58 @@
-# Week 1 (July 2 - July 8)
+# Week 1 (July 12 - July 18)
 ```json
 {
   "week_number": "1",
-  "date_range": "2024-07-02 to 2024-07-08",
+  "date_range": "2024-08-12 to 2024-08-18",
   "runs": [
     {
-      "date": "2024-07-02",
+      "date": "2024-08-12",
       "type_of_run": "Easy",
-      "distance_km": 6,
-      "duration_hh_mm_ss": "00:54:00",
-      "average_pace_min_per_km": "09:00",
+      "distance_km": 8,
+      "duration_hh_mm_ss": "01:08:00",
+      "average_pace_min_per_km": "08:30",
       "average_heart_rate_bpm": null,
       "max_heart_rate_bpm": null,
       "heart_rate_zones": {},
-      "perceived_effort_1_to_10": null,
+      "perceived_effort_1_to_10": 4,
       "weather_conditions": {},
-      "additional_observations": "Focus on keeping the pace comfortable and easy."
+      "additional_observations": "Start the week with a steady, comfortable run to ease back into the rhythm."
     },
     {
-      "date": "2024-07-03",
+      "date": "2024-08-13",
       "type_of_run": "Tempo",
+      "distance_km": 10,
+      "duration_hh_mm_ss": "01:10:00",
+      "average_pace_min_per_km": "07:00",
+      "average_heart_rate_bpm": null,
+      "max_heart_rate_bpm": null,
+      "heart_rate_zones": {},
+      "perceived_effort_1_to_10": 7,
+      "weather_conditions": {},
+      "additional_observations": "Include a warm-up and cool-down. Focus on maintaining a challenging but sustainable pace."
+    },
+    {
+      "date": "2024-08-14",
+      "type_of_run": "Rest or Cross-Training",
+      "activity": "Optional: Light cycling, swimming, or yoga",
+      "duration_hh_mm_ss": "00:30:00 to 00:45:00",
+      "additional_observations": "Active recovery to keep muscles loose and promote recovery."
+    },
+    {
+      "date": "2024-08-15",
+      "type_of_run": "Intervals",
       "distance_km": 8,
       "duration_hh_mm_ss": "00:56:00",
       "average_pace_min_per_km": "07:00",
+      "intervals": "6x800m at 5:45-6:00min/km with 2 min recovery between each",
       "average_heart_rate_bpm": null,
       "max_heart_rate_bpm": null,
       "heart_rate_zones": {},
-      "perceived_effort_1_to_10": null,
+      "perceived_effort_1_to_10": 8,
       "weather_conditions": {},
-      "additional_observations": "Tempo pace should be comfortably hard."
+      "additional_observations": "Reintroduce longer intervals to build speed endurance."
     },
     {
-      "date": "2024-07-05",
+      "date": "2024-08-16",
       "type_of_run": "Easy",
       "distance_km": 6,
       "duration_hh_mm_ss": "00:54:00",
@@ -39,22 +60,29 @@
       "average_heart_rate_bpm": null,
       "max_heart_rate_bpm": null,
       "heart_rate_zones": {},
-      "perceived_effort_1_to_10": null,
+      "perceived_effort_1_to_10": 3,
       "weather_conditions": {},
-      "additional_observations": "Keep it easy and comfortable."
+      "additional_observations": "A recovery run to keep your legs fresh before the long run."
     },
     {
-      "date": "2024-07-06",
+      "date": "2024-08-17",
       "type_of_run": "Long",
-      "distance_km": 16,
-      "duration_hh_mm_ss": "01:52:00",
+      "distance_km": 22,
+      "duration_hh_mm_ss": "02:34:00",
       "average_pace_min_per_km": "07:00",
       "average_heart_rate_bpm": null,
       "max_heart_rate_bpm": null,
       "heart_rate_zones": {},
-      "perceived_effort_1_to_10": null,
+      "perceived_effort_1_to_10": 6,
       "weather_conditions": {},
-      "additional_observations": "Focus on maintaining a steady pace and hydration."
+      "additional_observations": "Push the distance slightly to continue building marathon endurance."
+    },
+    {
+      "date": "2024-08-18",
+      "type_of_run": "Recovery or Rest",
+      "activity": "Light stretching, foam rolling, or an easy walk",
+      "duration_hh_mm_ss": "00:30:00",
+      "additional_observations": "Allow your body to recover fully after the long run."
     }
   ]
 }
@@ -63,31 +91,31 @@
 ## Results
 ```json
 {
-  "week_number": "XX",
-  "date_range": "YYYY-MM-DD to YYYY-MM-DD",
+  "week_number": "1",
+  "date_range": "2024-08-12 to 2024-08-18",
   "runs": [
     {
-      "date": "YYYY-MM-DD",
-      "type_of_run": "Easy/Tempo/Interval/Long",
-      "distance_km": X.X,
-      "duration_hh_mm_ss": "HH:MM:SS",
-      "average_pace_min_per_km": "MM:SS",
-      "average_heart_rate_bpm": XX,
-      "max_heart_rate_bpm": XX,
+      "date": "2024-08-12",
+      "type_of_run": "Easy",
+      "distance_km": 8,
+      "duration_hh_mm_ss": "01:00:00",
+      "average_pace_min_per_km": "07:30",
+      "average_heart_rate_bpm": 132,
+      "max_heart_rate_bpm": 144,
       "heart_rate_zones": {
-        "zone_1_percentage": X,
-        "zone_2_percentage": X,
-        "zone_3_percentage": X,
-        "zone_4_percentage": X,
-        "zone_5_percentage": X
+        "zone_1_percentage": 0,
+        "zone_2_percentage": 76,
+        "zone_3_percentage": 24,
+        "zone_4_percentage": 0,
+        "zone_5_percentage": 0
       },
-      "perceived_effort_1_to_10": X,
+      "perceived_effort_1_to_10": 4,
       "weather_conditions": {
-        "temperature_C": XX,
-        "humidity_percentage": XX,
-        "wind_speed_kph": XX
+        "temperature_C": 29,
+        "humidity_percentage": 80,
+        "wind_speed_kph": 5
       },
-      "additional_observations": "Any notable feelings, fatigue, pain, or exceptional performance details"
+      "additional_observations": "I went for a run in the evening right after dinner and I felt awful ^^"
     }
   ]
 }
