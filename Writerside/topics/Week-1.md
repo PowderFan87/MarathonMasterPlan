@@ -116,6 +116,29 @@
         "wind_speed_kph": 5
       },
       "additional_observations": "I went for a run in the evening right after dinner and I felt awful ^^"
+    },
+    {
+      "date": "2024-08-13",
+      "type_of_run": "Tempo",
+      "distance_km": 8.22,
+      "duration_hh_mm_ss": "00:56:50",
+      "average_pace_min_per_km": "06:55",
+      "average_heart_rate_bpm": 145,
+      "max_heart_rate_bpm": 157,
+      "heart_rate_zones": {
+        "zone_1_percentage": 0,
+        "zone_2_percentage": 6,
+        "zone_3_percentage": 79,
+        "zone_4_percentage": 13,
+        "zone_5_percentage": 0
+      },
+      "perceived_effort_1_to_10": 6.5,
+      "weather_conditions": {
+        "temperature_C": 34,
+        "humidity_percentage": 87,
+        "wind_speed_kph": 0
+      },
+      "additional_observations": "I went for this run in a small weather window I had during a hot day right after a heavy rain storm. But it was too humid and some farmwork had a too pungent smell to make the 10k."
     }
   ]
 }
