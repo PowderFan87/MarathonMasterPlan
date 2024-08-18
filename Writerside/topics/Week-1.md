@@ -1,4 +1,4 @@
-# Week 1 (July 12 - July 18)
+# Week 1 (August 12 - August 18)
 ```json
 {
   "week_number": "1",
@@ -139,6 +139,52 @@
         "wind_speed_kph": 0
       },
       "additional_observations": "I went for this run in a small weather window I had during a hot day right after a heavy rain storm. But it was too humid and some farmwork had a too pungent smell to make the 10k."
+    },
+    {
+      "date": "2024-08-15",
+      "type_of_run": "Tempo",
+      "distance_km": 4.48,
+      "duration_hh_mm_ss": "00:31:05",
+      "average_pace_min_per_km": "06:56",
+      "average_heart_rate_bpm": 154,
+      "max_heart_rate_bpm": 172,
+      "heart_rate_zones": {
+        "zone_1_percentage": 0,
+        "zone_2_percentage": 0,
+        "zone_3_percentage": 46,
+        "zone_4_percentage": 52,
+        "zone_5_percentage": 0
+      },
+      "perceived_effort_1_to_10": 7,
+      "weather_conditions": {
+        "temperature_C": 30,
+        "humidity_percentage": 80,
+        "wind_speed_kph": 0
+      },
+      "additional_observations": "We still had very high temperatures and humidity. I wasn't able to complete the interval training. It was simply too hot. I did the tempo run instead which was intense."
+    },
+    {
+      "date": "2024-08-17",
+      "type_of_run": "Long",
+      "distance_km": 22.01,
+      "duration_hh_mm_ss": "02:24:12",
+      "average_pace_min_per_km": "06:33",
+      "average_heart_rate_bpm": 150,
+      "max_heart_rate_bpm": 167,
+      "heart_rate_zones": {
+        "zone_1_percentage": 0,
+        "zone_2_percentage": 3,
+        "zone_3_percentage": 53,
+        "zone_4_percentage": 42,
+        "zone_5_percentage": 0
+      },
+      "perceived_effort_1_to_10": 5,
+      "weather_conditions": {
+        "temperature_C": 28,
+        "humidity_percentage": 76,
+        "wind_speed_kph": 0
+      },
+      "additional_observations": "I felt absolutely amazing. I only had to fight through the last 4km. Otherwise I felt amazing during the whole run. I was 18 minutes faster than my previous PR for a half marathon."
     }
   ]
 }

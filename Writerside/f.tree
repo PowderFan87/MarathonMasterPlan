@@ -6,6 +6,7 @@
                  name="FitnessPlan"
                  start-page="starter.md">
 
+    <toc-element topic="Nutrition.md"/>
     <toc-element topic="starter.md"/>
     <toc-element topic="Week2update.md"/>
     <toc-element topic="Week3update.md"/>
