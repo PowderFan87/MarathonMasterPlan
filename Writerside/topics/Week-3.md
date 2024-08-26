@@ -1,60 +1,44 @@
-# Week 3 (July 16 - July 22)
+# Week 3 (August 26 - September 01)
 ```json
 {
   "week_number": "3",
-  "date_range": "2024-07-16 to 2024-07-22",
+  "date_range": "2024-08-26 to 2024-09-01",
   "runs": [
     {
-      "date": "2024-07-16",
+      "date": "2024-08-26",
       "type_of_run": "Easy",
       "distance_km": 8,
-      "duration_hh_mm_ss": "01:12:00",
-      "average_pace_min_per_km": "09:00",
-      "average_heart_rate_bpm": null,
-      "max_heart_rate_bpm": null,
-      "heart_rate_zones": {},
-      "perceived_effort_1_to_10": null,
-      "weather_conditions": {},
-      "additional_observations": "Easy run to build endurance."
+      "target_pace_min_per_km": "7:45-8:00",
+      "expected_duration_hh_mm_ss": "01:02:00",
+      "target_heart_rate_bpm": "Zone 2 (128-140)",
+      "additional_notes": "Focus on recovery. Keep the effort light and steady."
     },
     {
-      "date": "2024-07-17",
+      "date": "2024-08-27",
+      "type_of_run": "Interval",
+      "distance_km": "6x800m with 400m jog rest",
+      "target_pace_min_per_km": "5:30-5:45",
+      "expected_duration_hh_mm_ss": "00:55:00",
+      "target_heart_rate_bpm": "Zone 4 (160-170)",
+      "additional_notes": "Push hard on the intervals, aim to stay around your lactate threshold (167 bpm). Warm up and cool down with 1.5 km easy running."
+    },
+    {
+      "date": "2024-08-29",
       "type_of_run": "Tempo",
       "distance_km": 10,
-      "duration_hh_mm_ss": "01:10:00",
-      "average_pace_min_per_km": "07:00",
-      "average_heart_rate_bpm": null,
-      "max_heart_rate_bpm": null,
-      "heart_rate_zones": {},
-      "perceived_effort_1_to_10": null,
-      "weather_conditions": {},
-      "additional_observations": "Tempo run at a challenging but manageable pace."
+      "target_pace_min_per_km": "6:40-6:50",
+      "expected_duration_hh_mm_ss": "01:06:00",
+      "target_heart_rate_bpm": "Zone 3-4 (145-165)",
+      "additional_notes": "Aim to maintain a steady pace close to your lactate threshold heart rate."
     },
     {
-      "date": "2024-07-19",
-      "type_of_run": "Easy",
-      "distance_km": 6,
-      "duration_hh_mm_ss": "00:54:00",
-      "average_pace_min_per_km": "09:00",
-      "average_heart_rate_bpm": null,
-      "max_heart_rate_bpm": null,
-      "heart_rate_zones": {},
-      "perceived_effort_1_to_10": null,
-      "weather_conditions": {},
-      "additional_observations": "Recovery run to keep the legs fresh."
-    },
-    {
-      "date": "2024-07-20",
+      "date": "2024-08-31",
       "type_of_run": "Long",
-      "distance_km": 20,
-      "duration_hh_mm_ss": "02:20:00",
-      "average_pace_min_per_km": "07:00",
-      "average_heart_rate_bpm": null,
-      "max_heart_rate_bpm": null,
-      "heart_rate_zones": {},
-      "perceived_effort_1_to_10": null,
-      "weather_conditions": {},
-      "additional_observations": "Continue building long run distance."
+      "distance_km": 26,
+      "target_pace_min_per_km": "6:30-6:40",
+      "expected_duration_hh_mm_ss": "02:50:00",
+      "target_heart_rate_bpm": "Zone 3 (140-155)",
+      "additional_notes": "This is your longest run yet. Maintain a steady pace, hydrate well, and pay attention to nutrition during the run."
     }
   ]
 }
