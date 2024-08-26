@@ -47,31 +47,31 @@
 ## Results
 ```json
 {
-  "week_number": "XX",
-  "date_range": "YYYY-MM-DD to YYYY-MM-DD",
+  "week_number": "3",
+  "date_range": "2024-08-26 to 2024-09-01",
   "runs": [
     {
-      "date": "YYYY-MM-DD",
-      "type_of_run": "Easy/Tempo/Interval/Long",
-      "distance_km": X.X,
-      "duration_hh_mm_ss": "HH:MM:SS",
-      "average_pace_min_per_km": "MM:SS",
-      "average_heart_rate_bpm": XX,
-      "max_heart_rate_bpm": XX,
+      "date": "2024-08-26",
+      "type_of_run": "Easy",
+      "distance_km": 7.84,
+      "duration_hh_mm_ss": "01:08:17",
+      "average_pace_min_per_km": "08:42",
+      "average_heart_rate_bpm": 130,
+      "max_heart_rate_bpm": 141,
       "heart_rate_zones": {
-        "zone_1_percentage": X,
-        "zone_2_percentage": X,
-        "zone_3_percentage": X,
-        "zone_4_percentage": X,
-        "zone_5_percentage": X
+        "zone_1_percentage": 0,
+        "zone_2_percentage": 77,
+        "zone_3_percentage": 22,
+        "zone_4_percentage": 0,
+        "zone_5_percentage": 0
       },
-      "perceived_effort_1_to_10": X,
+      "perceived_effort_1_to_10": 5,
       "weather_conditions": {
-        "temperature_C": XX,
-        "humidity_percentage": XX,
-        "wind_speed_kph": XX
+        "temperature_C": 21,
+        "humidity_percentage": 40,
+        "wind_speed_kph": 6
       },
-      "additional_observations": "Any notable feelings, fatigue, pain, or exceptional performance details"
+      "additional_observations": "The run felt very hard maybe because the long run was just the day before. Also some pain in the left acchilis."
     }
   ]
 }
