@@ -68,31 +68,54 @@
 ## Results
 ```json
 {
-  "week_number": "XX",
-  "date_range": "YYYY-MM-DD to YYYY-MM-DD",
+  "week_number": "4",
+  "date_range": "2024-09-02 to 2024-09-08",
   "runs": [
     {
-      "date": "YYYY-MM-DD",
-      "type_of_run": "Easy/Tempo/Interval/Long",
-      "distance_km": X.X,
-      "duration_hh_mm_ss": "HH:MM:SS",
-      "average_pace_min_per_km": "MM:SS",
-      "average_heart_rate_bpm": XX,
-      "max_heart_rate_bpm": XX,
+      "date": "2024-09-03",
+      "type_of_run": "Easy",
+      "distance_km": 8,
+      "duration_hh_mm_ss": "01:01:41",
+      "average_pace_min_per_km": "08:30",
+      "average_heart_rate_bpm": 128,
+      "max_heart_rate_bpm": 143,
       "heart_rate_zones": {
-        "zone_1_percentage": X,
-        "zone_2_percentage": X,
-        "zone_3_percentage": X,
-        "zone_4_percentage": X,
-        "zone_5_percentage": X
+        "zone_1_percentage": 1,
+        "zone_2_percentage": 86,
+        "zone_3_percentage": 12,
+        "zone_4_percentage": 0,
+        "zone_5_percentage": 0
       },
-      "perceived_effort_1_to_10": X,
+      "perceived_effort_1_to_10": 6,
       "weather_conditions": {
-        "temperature_C": XX,
-        "humidity_percentage": XX,
-        "wind_speed_kph": XX
+        "temperature_C": 20,
+        "humidity_percentage": 55,
+        "wind_speed_kph": 3
       },
-      "additional_observations": "Any notable feelings, fatigue, pain, or exceptional performance details"
+      "additional_observations": "I find easy runs kind of more exhausting than tempo runs because it feels tedious to keep a slow pace."
+    },
+    {
+      "date": "2024-09-05",
+      "type_of_run": "Tempo",
+      "distance_km": 10.10,
+      "duration_hh_mm_ss": "01:12:55",
+      "average_pace_min_per_km": "07:13",
+      "average_heart_rate_bpm": 146,
+      "max_heart_rate_bpm": 159,
+      "heart_rate_zones": {
+        "zone_1_percentage": 0,
+        "zone_2_percentage": 3,
+        "zone_3_percentage": 77,
+        "zone_4_percentage": 18,
+        "zone_5_percentage": 0
+      },
+      "perceived_effort_1_to_10": 4,
+      "weather_conditions": {
+        "temperature_C": 30,
+        "humidity_percentage": 43,
+        "wind_speed_kph": 15
+      },
+      "additional_observations": "It was windy and the route I'm taking has so many inclines it feels impossible to keep the HR in zone 3 with a higher pace than 7."
     }
   ]
 }
